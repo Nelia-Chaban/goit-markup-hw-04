@@ -299,10 +299,12 @@ button {
   background-color: #31d0aa;
 }
 /*====================CUSTOMERS==================== */
-
+.customers-title {
+  color: var(--title-text);
+}
 .customers-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 24px;
 }
 .customers-link {
@@ -321,12 +323,6 @@ button {
 }
 .customer-logo-icon {
   fill: currentColor;
-}
-.customer-logo-icon:is(:hover, :focus) {
-  fill: currentColor;
-}
-.customers-title {
-  color: var(--title-text);
 }
 /* ======================FOOTER=========================== */
 .footer {
@@ -380,12 +376,11 @@ button {
   gap: 24px;
 }
 .list-itm-btn {
-  display: flex;
 }
 .hero-portfolio-btn {
   font-family: inherit;
-  min-width: 69px;
-  height: 48px;
+  width: 100%;
+  height: 100%;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
